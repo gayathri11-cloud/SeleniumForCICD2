@@ -23,6 +23,7 @@ public class BrowserDriver {
     public LandingPage landingPage;
     public WebDriver driver;
 
+//    Adding some comments to check if jenkins auto triggers when code is pushed
     public WebDriver InitializeDriver() throws IOException {
 
         Properties prop = new Properties();
